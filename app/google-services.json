@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "508094407531",
+    "firebase_url": "https://easydictionary-67743.firebaseio.com",
+    "project_id": "easydictionary-67743",
+    "storage_bucket": "easydictionary-67743.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508094407531:android:d6a83d11ff5184ea",
+        "android_client_info": {
+          "package_name": "com.example.umang18oct.easydictionary21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508094407531-joi18h29gfcl84qpkgi38ppevn44cg9q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.umang18oct.easydictionary21",
+            "certificate_hash": "e0fbf5a0c08b01ebbe901a8e98866dec9df2314f"
+          }
+        },
+        {
+          "client_id": "508094407531-1f20sqo72j9tpcd0ctsqp182a9hn8nla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxLb8bVy7ADQSPXjOupGxf4w5Ptx3BbQo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508094407531-1f20sqo72j9tpcd0ctsqp182a9hn8nla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

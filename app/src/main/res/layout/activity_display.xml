@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="com.example.umang18oct.easydictionary21.MainActivity">
+    <TextView
+        android:text="WORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textColor="#99ff33" />
+
+    <Button
+        android:text="Search another word!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/goback"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:background="#99ff33"
+        android:textColor="#333399" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/word"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#b3ffb3" />
+
+    <TextView
+        android:text="MEANING"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/word"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#99ff33" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meaning"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#b3ffb3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/antonyms"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#b3ffb3" />
+
+    <TextView
+        android:text="SYNONYMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_below="@+id/meaning"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:textColor="#99ff33" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/synonyms"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#b3ffb3" />
+
+    <TextView
+        android:text="ANTONYMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/synonyms"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#99ff33"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="HISTORY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/history"
+        android:textSize="14sp"
+        android:background="#ff7d21"
+        android:textColor="#333399"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
